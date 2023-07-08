@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root {
+    --background-white: #e4e4e4;
+    --primary-blue: #4f39f4;
+    --primary-blue-10: #4f39f414;
+    --dark-blue: #3c14cc;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--background-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
